@@ -10,13 +10,18 @@ body {
     margin: 20px;
     line-height: 1.6;
 }
-nav>ul>li{
-   float: left;
-   padding: 10px;
-   margin: 10px;
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-vertical-nav{
-    width: auto;
+nav ul li {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 nav>ul>li:first-child {
@@ -26,7 +31,7 @@ nav>ul>li:first-child {
 nav>ul>li:nth-child(2n){
     background-color: blue;
 }
-}
+
 
 /* Heading style */
 h1 {
