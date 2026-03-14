@@ -24,13 +24,31 @@ nav ul li {
     cursor: pointer;
 }
 
-nav>ul>li:first-child {
-    background-color: aquamarine;
+/* First nav item */
+nav ul li:first-child {
+    background-color: #7fffd4;
+    color: #000;
 }
 
-nav>ul>li:nth-child(2n){
-    background-color: blue;
+/* Alternate nav items (every 2nd item) */
+nav ul li:nth-child(2n) {
+    background-color: #4169e1;
+    color: #fff;
 }
+
+/* Hover & Focus states for accessibility */
+nav ul li:hover {
+    opacity: 0.85;
+    transform: translateY(-4px);
+    box-shadow: 0 19px 8px rgba(0, 0, 0, 0.15);
+}
+nav ul li:focus {
+    outline: 2px solid #333;
+    outline-offset: 4px;
+}
+
+
+
 
 
 /* Heading style */
