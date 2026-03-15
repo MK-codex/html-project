@@ -3,6 +3,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+nav>ul>li{
+   float: left;
+   padding: 10px;
+   margin: 10px;
+}
+vertical-nav{
+    width: auto;
+}
+
+nav>ul>li:first-child {
+    background-color: aquamarine;
+}
+
+nav>ul>li:nth-child(2n){
+    background-color: blue;
+}
+}
 
 /* Heading style */
 h1 {
@@ -24,7 +41,8 @@ table {
 }
 
 /* Table cells */
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
@@ -34,11 +52,8 @@ th, td {
 img {
     border-radius: 10px;
 }
-details{
+
+details {
     color: #333;
     font-size: 18px;
 }
-
-
-
-
