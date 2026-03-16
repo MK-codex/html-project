@@ -10,12 +10,14 @@ body {
     margin: 20px;
     line-height: 1.6;
 }
+
 nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
+
 nav ul li {
     padding: 10px 15px;
     background-color: #f0f0f0;
@@ -42,14 +44,11 @@ nav ul li:hover {
     transform: translateY(-4px);
     box-shadow: 0 19px 8px rgba(0, 0, 0, 0.15);
 }
+
 nav ul li:focus {
     outline: 2px solid #333;
     outline-offset: 4px;
 }
-
-
-
-
 
 /* Heading style */
 h1 {
