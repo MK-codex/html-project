@@ -1,9 +1,11 @@
-* {
+/* universal selector */
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Giving Background color and desigens */
 body {
     background-color: #f5f5dc;
     font-family: 'Arial', sans-serif;
@@ -11,14 +13,16 @@ body {
     line-height: 1.6;
 }
 
+/* Arrenging navigation bar */
 nav ul {
     list-style: none;
     display: inline-flex;
-    flex-direction:row ;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
 
+/* Styling Navigation bar */
 nav ul li {
     padding: 10px 15px;
     background-color: #f0f0f0;
