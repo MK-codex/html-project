@@ -13,14 +13,27 @@ body {
     line-height: 1.6;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #b57010;
+    /* Matches your body background */
+    padding: 10px 0;
+    /* Adds some breathing room */
+    margin-bottom: 20px;
+    /* Reduces the large gap */
+}
+
 /* Arrenging navigation bar */
 nav ul {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 45px;
+
 }
 
 /* Styling Navigation bar */
@@ -30,6 +43,7 @@ nav ul li {
     border-radius: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin-inline: 3px;
 }
 
 /* First nav item */
@@ -47,7 +61,7 @@ nav ul li:nth-child(2n) {
 /* Hover & Focus states for accessibility */
 nav ul li:hover {
     opacity: 0.85;
-    transform: translat(4px);
+    transform: translat(-4px);
     box-shadow: 0 19px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -199,4 +213,47 @@ div form fieldset {
     padding: 12px 15px 12px 15px;
     text-shadow: 3px 2px 7px #000000;
 
+}
+
+#listing {
+    height: 60vw;
+    width: 40vw;
+    border: 2px solid rgb(83, 233, 166);
+    /* overflow: auto; */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    overflow: hidden auto;
+    /* mostly recomended is overflow: auto; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box1 {
+    background-color: #02e6ee;
+    position: relative;
+    /* there should be any position to give it z-index */
+    z-index: 1;
+    /*z-index used to show any box on top of every one leser the value upper the box */
+}
+
+.box2 {
+    background-color: #6f3838;
+    position: relative;
+}
+
+.box3 {
+    background-color: #d66d6d;
+}
+
+.box4 {
+    background-color: blanchedalmondS;
+}
+
+.box {
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 20px;
+    border: 2px solid black;
+    /* transform , filter or perspective properties can also make an element appear as positioned */
 }
