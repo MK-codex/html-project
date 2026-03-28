@@ -20,6 +20,7 @@ nav ul {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 45px;
 }
 
 /* Styling Navigation bar */
@@ -126,4 +127,38 @@ summary:hover {
 
 details[open] {
     background-color: #f0f8ff;
+}
+
+#submit button,
+#reset button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+
+    ;
+
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+#submit button {
+    background: linear-gradient(135deg, #02e6ee, #012363);
+    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+}
+
+#submit button:hover {
+
+    background: linear-gradient(135deg, #02e6ee, #012363);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 9px rgb(1, 114, 207);
+}
+#reset button:hover{
+     background: linear-gradient(135deg, #02e6ee, #012363);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 9px rgb(1, 114, 207);
+}
 }
