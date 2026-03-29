@@ -129,16 +129,38 @@ details[open] {
     background-color: #f0f8ff;
 }
 
+div form fieldset {
+  
+    display: block;
+    display: inline;
+    padding: 12px 20px;
+    outline: none;
+    border-width: 25px;
+    border-radius: 50px;display: ;
+}
+
+div form fieldset:hover {
+    border-width: linear-gradient(135deg, #02e6ee, #012363);
+}
+
+#formhead {
+    
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 5px;
+
+
+}
+
 #submit button,
 #reset button {
+    margin-top: 15px;
+    margin-left: 30px;
     padding: 12px 24px;
     font-size: 16px;
     border: none;
     border-radius: 50px;
     transition: all 0.3s ease;
-
-    ;
-
     color: white;
     text-transform: uppercase;
 
@@ -146,7 +168,7 @@ details[open] {
 }
 
 #submit button {
-    background: linear-gradient(135deg, #02e6ee, #012363);
+    background: linear-gradient(135deg, #000000, #fffefe);
     /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
 }
 
@@ -156,9 +178,15 @@ details[open] {
     transform: translateY(-4px);
     box-shadow: 0 4px 9px rgb(1, 114, 207);
 }
-#reset button:hover{
-     background: linear-gradient(135deg, #02e6ee, #012363);
+
+#reset button {
+    background: linear-gradient(135deg, #000000, #fffefe);
+
+}
+
+#reset button:hover {
+    background: linear-gradient(135deg, #02e6ee, #012363);
+    transform: translateY(-4px);
     transform: translateY(-4px);
     box-shadow: 0 4px 9px rgb(1, 114, 207);
-}
 }
