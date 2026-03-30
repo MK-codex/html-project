@@ -129,27 +129,20 @@ details[open] {
     background-color: #f0f8ff;
 }
 
-div form fieldset {
-  
-    display: block;
-    display: inline;
-    padding: 12px 20px;
-    outline: none;
-    border-width: 25px;
-    border-radius: 50px;display: ;
-}
-
-div form fieldset:hover {
-    border-width: linear-gradient(135deg, #02e6ee, #012363);
-}
-
 #formhead {
-    
     margin-top: 20px;
     margin-left: 45px;
     margin-bottom: 5px;
+}
 
+div form fieldset {
 
+    display: block;
+    display: inline;
+    padding: 12px 20px;
+    border-width: 25px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #02e6ee, #012363);
 }
 
 #submit button,
@@ -191,18 +184,19 @@ div form fieldset:hover {
     box-shadow: 0 4px 9px rgb(1, 114, 207);
 }
 
-#ourlocoh{
+#ourlocoh {
     margin-top: 20px;
     margin-left: 10px;
     color: #d66d6d;
 }
-#shoploco{
-  text-shadow:  3px 2px  6px  #d66d6d;
+
+#shoploco {
+    text-shadow: 3px 2px 6px #d66d6d;
 }
 
-#copy{
-    color:#6f3838;
+#copy {
+    color: #6f3838;
     padding: 12px 15px 12px 15px;
     text-shadow: 3px 2px 7px #000000;
-    
+
 }
